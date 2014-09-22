@@ -1,0 +1,1 @@
+!function(){"use strict";function e(){var e={};return e.dataMessage="test 123 service data",e}function a(e,a){e.message=a.dataMessage}a.$inject=["$scope","SomeService"],angular.module("app",[]).service("SomeService",e).controller("annCtrl",a)}();
